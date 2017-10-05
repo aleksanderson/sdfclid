@@ -1,11 +1,11 @@
-# SDF CLI Docker image
+# SDF CLI Docker Image
 # AUTHOR                Alex Manatskyi
-# VERSION               0.1
+# VERSION               1.0
 
 ARG JAVA_VERSION=3-jdk-7
 FROM maven:${JAVA_VERSION}
 
-LABEL maintainer="aleksanderson@gmail.com"
+LABEL maintainer="Alex Manatskyi(aleksanderson@gmail.com)"
 
 ENV SDFCLI_URL=https://system.netsuite.com/download/ide/update_17_1/plugins/com.netsuite.ide.core_2017.1.2.jar \
     SDFCLI_SUPL_URL=https://system.netsuite.com/core/media/media.nl?id=78304610&c=NLCORP&h=7815ede561a186622753&_xd=T&_xt=.bin \
