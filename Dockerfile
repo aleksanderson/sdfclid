@@ -12,8 +12,6 @@ ENV SDFCLI_URL=https://system.netsuite.com/download/ide/update_17_2/plugins/com.
     
 ENV PATH $PATH:$SDFCLI_FOLDER
 
-COPY ./docker-entrypoint.sh /
-
 RUN apk --update add \
     bash \
     openjdk7-jre \
