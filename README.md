@@ -1,7 +1,7 @@
 sdfcld
 =============
 
-Currently supports 2017.2
+``Currently supports 2017.2``
 
 Docker image for NetSuite SDF CLI packages all the nesessary dependencies nesessary to instal and run SuiteCloud Development Framework CLI.
 
